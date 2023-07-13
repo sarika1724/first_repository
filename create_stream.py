@@ -46,3 +46,5 @@ fruit_choice = streamlit.text_input('What fruit would you like to add','jackfrui
 #streamlit.write('Thanks for adding jackfruit')
 add_my_fruit = requests.get("https://fruityvice.com/api/fruit/jackfruit")
 streamlit.write('Thanks for adding',add_my_fruit)
+#this will give error
+my.cur.execute("insert_into_fruit_load_list values('from streamlit')")
